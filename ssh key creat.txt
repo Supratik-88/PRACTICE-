@@ -1,0 +1,21 @@
+$ ssh-keygen -t rsa -b 4096 -C "supratiksanyal9382@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/J.C/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/J.C/.ssh/id_rsa
+Your public key has been saved in /c/Users/J.C/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:9QN35cWPAY6ExNjteC5EKKnIbNFwvz3NkdwxceKBOs4 supratiksanyal9382@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+| .o. . *.oo*oo .o|
+| ...+ o *o=o* .oo|
+|o... o ..*+oo .oo|
+|.+.   oo=.++ .. .|
+|.    .o+S=  o    |
+|       Eo .  .   |
+|         .       |
+|                 |
+|                 |
++----[SHA256]-----+
