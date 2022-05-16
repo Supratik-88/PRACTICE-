@@ -1,0 +1,249 @@
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git config --global user.name
+Supratik
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git config --global user.email
+email
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git config --global user.email supratiksanyal9382@gmail.com
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git config --global user.email
+supratiksanyal9382@gmail.com
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ code .
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git init
+Reinitialized existing Git repository in D:/git/.git/
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ ls -lart
+total 18345
+-rw-r--r-- 1 J.C 197121 18672490 May 10 17:22 'progit (1).pdf'
+drwxr-xr-x 1 J.C 197121        0 May 10 22:54  ../
+-rw-r--r-- 1 J.C 197121        0 May 12 15:51  about.html
+-rw-r--r-- 1 J.C 197121        0 May 12 15:51  monument.html
+-rw-r--r-- 1 J.C 197121      316 May 13 20:04  index.html
+drwxr-xr-x 1 J.C 197121        0 May 13 22:02  ./
+-rw-r--r-- 1 J.C 197121      740 May 13 22:02 'ssh key creat.txt'
+-rw-r--r-- 1 J.C 197121        0 May 13 22:18  contact.html
+drwxr-xr-x 1 J.C 197121        0 May 15 16:46  .git/
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git status
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git add index.html
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git status
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git commit
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ pwd
+/d/git
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git status
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git add index.html
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git commit -m "second commoi"
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git commit -m "second commit"
+On branch secondbranch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git add contact.html
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git commit -m "third commit"
+[secondbranch e06868a] third commit
+ 1 file changed, 1 deletion(-)
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git status
+On branch secondbranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ssh key creat.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git add -A
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git status
+On branch secondbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ssh key creat.txt
+
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git branch
+  master
+* secondbranch
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (secondbranch)
+$ git checkout master
+Switched to branch 'master'
+A       ssh key creat.txt
+Your branch is up to date with 'origin/master'.
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ssh key creat.txt
+
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (master)
+$ git commit -A -m "this is a commit"
+error: unknown switch `A'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (master)
+$ git commit -m "commit"
+[master aee9beb] commit
+ 1 file changed, 21 insertions(+)
+ create mode 100644 ssh key creat.txt
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+J.C@DESKTOP-6BBMP42 MINGW64 /d/git (master)
+$
